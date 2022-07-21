@@ -1,0 +1,100 @@
+.program{
+    width: 40rem;
+    height: 45rem;;
+    border: solid 0.3rem #111213;
+   
+    border-radius: 1rem;
+    margin-top: 15rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.program_titulo{
+    width: 15rem;
+    height: 5rem;
+    border: solid 0.2rem #111213;
+    background-color: #97775E;
+    color: azure;
+    border-radius: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    font-size: 3rem;
+}
+
+.botones{
+    width: 25rem;
+    height: 10rem;
+
+    display: flex;
+}
+
+.bt_anterior{
+    width: 10rem;
+    height: 5rem;
+    border: solid 0.2rem #111213;
+    background-color: #785B4B;
+    border-radius: 0.5rem;
+    margin: auto;
+    margin-top: 0.2rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2rem;
+    color: #fafdfd;
+}
+
+.bt_siguiente{
+    width: 10rem;
+    height: 5rem;
+    border: solid 0.2rem #111213;
+    background-color: #785B4B;
+    border-radius: 0.5rem;
+    margin: auto;
+    margin-top: 0.2rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2rem;
+    color: #fafdfd;
+}
+
+/*.cambiobt{
+    background-color: rgb(113, 20, 220);
+    border-radius: 10rem;
+    transition: 0.5s;
+    width: 20rem;
+}*/
+
+#bt_user {
+    width: 27rem;
+    height: 5rem;
+    border: solid 0.2rem #111213;
+    background-color: #5F413F;
+    border-radius: 1rem;
+    font-size: 2rem;
+    color: #fafdfd;
+    margin-bottom: 5rem;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bt_user:hover {
+    background-color: #1F1015;
+}
